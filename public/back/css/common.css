@@ -1,0 +1,151 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,body{
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+  .lt-aside  .a-header a:hover,a:visited,a:link,a:active{
+  text-decoration: none;
+}
+/*这是back的页面*/
+body {
+  background-color: #222D32;
+}
+
+.panel-default {
+  margin-top: 120px;
+}
+
+.panel-default > .panel-heading {
+  background-color: #337AB7;
+  border-color: #337AB7;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.panel {
+  border: 1px solid #337AB7;
+}
+
+.form-control-feedback {
+  right: 15px;
+}
+
+
+/*主页的样式*/
+.lt-aside{
+  width: 180px;
+  position: fixed;
+  background-color: #222D32;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index:2;
+  transition: all 1s;
+}
+
+.lt-aside .a-header a{
+  display: block;
+  width: 180px;
+  height: 50px;
+  background-color: #367FA9;
+   text-align: center;
+  color: #fff;
+   font-size: 24px;
+  line-height: 50px;
+}
+
+.a-user img{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.a-user p{
+ color: #fff;
+  font-size: 16px;
+  margin-left: 50px;
+  display: inline-block;
+}
+.a-nav ul{
+  margin-top: 20px;
+}
+.a-nav ul a{
+  line-height: 40px;
+  height: 40px;
+  width: 180px;
+ text-align: center;
+  color: #fff;
+  padding-left: 40px;
+}
+.active{
+  display: none;
+}
+
+
+.lt-main{
+  transition:all 1s;
+  background-color: #fff;
+  padding-top: 50px;
+  height: 100%;
+  width: 100%;
+  padding-left: 180px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.lt-main-h {
+  transition:all 1s;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding-left: 200px;
+  position: fixed;
+  padding-top: 12px;
+  font-size: 18px;
+  height: 50px;
+  background-color: #3C8DBC;
+}
+.lt-main-h a{
+  color: #fff;
+  /*padding-left: 200px;*/
+  /*transition: all 10s;*/
+}
+.lt-main-h a:nth-child(2){
+  padding-right: 20px;
+}
+
+
+.lt-main-b{
+  padding: 15px;
+}
+
+.lt-main-b .modal{
+/*display: none;*/
+}
+.now{
+  transition:all 1s;
+  left:-180px;
+}
+.now1{
+  padding-left: 0;
+}
+.now2{
+  padding-left: 20px;
+}
+
+
+.table{
+  text-align: center;
+}
